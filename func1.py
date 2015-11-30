@@ -22,6 +22,31 @@ print(result)
 result = any( b< 3 for b in b_list2  )
 print(result)
 
+import sys
+print(sys.path)
+
+import math
+print(math.pi)
+
+import calendar
+calendar.setfirstweekday(6)
+calendar.prmonth(2015,11)
+
+import os
+print(os.getcwd())
+print(os.listdir(os.getcwd()))
+print(os.listdir('/'))
+
+import random
+print(random.random())
+print(random.randint(1,2000))
+
+from random import randint
+print(randint(1,10))
+
+from random import *
+print(random())
+
 
 '''
 user define func
